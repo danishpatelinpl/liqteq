@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+/*scroll*/
+::selection{background:#895ffc;color:#fff;text-shadow:none;}
+::-webkit-scrollbar{width:0px;background-color:#F5F5F5;}
+::-webkit-scrollbar-button:start:decrement,::-webkit-scrollbar-button:end:increment{display:none;}
+::-webkit-scrollbar-track-piece{background-color:#dedede;}
+::-webkit-scrollbar-thumb:vertical{border-radius:0px;height: 20px; background-image:linear-gradient(#FFC728,#FFC728);}
+body {
+    font-family: 'Orbitron', sans-serif ;
+    background-color: #16171B !important;
+  }
+
+
+/*heading*/
+a
+{
+  text-decoration: none !important;
+}
+a:hover
+{
+  text-decoration: none !important;
+}
+.m2-h h2
+{
+    color: #fff;
+    font-size: 43px;
+    font-family: 'Orbitron', sans-serif
+}
+.m3-h h3
+{
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 32px;
+}
+.m4-h h4
+{
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 20px;
+}
+.m5-h h5{
+  color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px;
+}
+
+
+
+/*paragrape*/
+.p1 p
+{
+color: #7D7D7D;
+}
+.p2 p
+{
+    color: #fff;
+}
+.p3 p{}
+.p4 p{}
+.p5 p{}
+
+
+.bgText {
+  background: url(../images/bg.jpg) no-repeat;
+  background-position: center center;
+  background-color: #464646;
+  background-size: cover;
+  background-clip: text;
+  color: transparent;
+}
+
+
+/* register */
+.Ifiled svg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 9px;
+  }
+  
+  .Ifiled input ,.Ifiled select {
+    padding: 26px 52px;
+    border: 1px solid #424242;
+    color:#fff ;
+  }
+  .Ifiled input:focus {
+    border-color: #218644;
+    box-shadow: 0 0 0 1px #218644;
+  }
+  .Ifiled button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    z-index: 1;
+    background-color: transparent;
+  }
+  .Ifiled button:hover {
+    background-color: transparent;
+  }
+  .Ifiled {
+    position: relative;
+  }
+  .pfiled input {
+    outline: 1px solid #000 !important;
+    background: transparent;
+    outline-offset: 0;
+    padding: 25px 24px;
+    width: auto;
+    border-color: #949494;
+    color: #fff;
+}
+.pfiled input:focus {
+  border-color: #218644;
+  box-shadow: 0 0 0 1px #218644;
+}
+.ufiled input {
+  padding: 70px;
+  text-align: center;
+  border: 1px dashed #424242;
+}
+.ufiled [type="file"]::-webkit-file-upload-button {
+  background: #218644;
+  border: 2px solid #218644;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+  outline: none;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  transition: all 1s ease;
+}
+.ufiled [type="file"] {
+  /* Style the color of the message that says 'No file chosen' */
+    color: #878787;
+  }
+  .adser  input
+  {
+    padding: 26px 15px;
+  }
+  .Ifiled select {
+    padding: 10px 20px;
+    height: 55px;
+}
+.icnfiled  select
+{
+  padding: 10px 45px;
+  text-transform: capitalize;
+}
+.Ifiled select option {
+  background-color: #202125;
+}
+/* register */
+.rotatebox
+{
+  position: relative;
+  left: -14%;
+  bottom: -100px;
+}
+.rotate img
+{
+    rotate: 6deg;
+}
+/* side menu  */
+ul.sidemenu {
+  height: 800px;
+  overflow: scroll;
+}
+
+ul.sidemenu  li  a {
+  background-color: transparent;
+  padding: 12px 10px;
+  max-width: 235px;
+  display: block;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 300;
+  color: #fff;
+  font-family: 'Orbitron', sans-serif ;
+}
+ul.sidemenu  li 
+{
+  margin-bottom: 10px;
+}
+ul.sidemenu > li > a:hover {
+  background:var(--grdient-green, linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(90deg, #2BAF59 -1.34%, #1D723B 99.92%));
+}
+ul.sidemenu > li > a svg {
+  vertical-align: middle;
+  font-size: 20px;
+  margin-right: 8px;
+}
+ul.sidesubmenu > li {
+  margin-bottom: 0x;
+}
+ul.sidesubmenu > li:last-child {
+  margin-bottom: 0;
+}
+ul.sidesubmenu > li > a {
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  padding: 5px 0;
+}
+.loggedBtn span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.serch input:focus {
+  border-color: #202125;
+  box-shadow: 0 0 0 1px #202125;
+}
+.bread h3{
+  font-size: 24px;
+}
+.bread h3 a
+{
+  font-size: 18px;
+}
+.venbox h3{
+  font-size: 16px;
+}
+.dashd h3
+{
+ font-size: 40px;
+  color: #2BAF59;
+}

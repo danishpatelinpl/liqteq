@@ -1,0 +1,1 @@
+export const baseUrl = "https://liqtec.thewebtestlink.xyz/api";
